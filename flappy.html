@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>THE GAME</title>
+
+	<style>
+	body{
+		margin: 40px auto;
+		max-width: 400px;
+		line-height: 1.6em;
+		font-size: 20px;
+		color: #444;
+		padding: 0 10px;
+	}
+	input{
+		width:400px;
+	}
+	</style>
+
+</head>
+<body>
+
+	difficulty:
+	<br>
+	<input id="difficulty" type="range" min=0 max=1 step=0.0025 value=0.25>
+
+	<br><br>
+	<canvas id="canvas" style="background:#333; border-top:none; border-right:none; width:400px; height:400px;"
+			width=800 height=800></canvas>
+
+</body>
+</html>
+
+<!-- SCRIPTS -->
+<script src="flappy.js"></script>

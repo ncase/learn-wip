@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>THE META-GAME</title>
+
+	<style>
+	body{
+		margin: 40px auto;
+		max-width: 400px;
+		line-height: 1.6em;
+		font-size: 20px;
+		color: #444;
+		padding: 0 10px;
+	}
+	input{
+		width:400px;
+	}
+	</style>
+
+</head>
+<body>
+
+	skill:
+	<br>
+	<input id="skill" type="range" min=0 max=1 step=0.0025 value=0>
+	<br>
+	difficulty:
+	<br>
+	<input id="difficulty" type="range" min=0 max=1 step=0.0025 value=0>
+
+	<br><br>
+	<canvas id="flow" style="border:2px solid #000; border-top:none; border-right:none; width:400px; height:400px;"
+			width=800 height=800></canvas>
+
+</body>
+</html>
+
+<!-- SCRIPTS -->
+<script src="meta.js"></script>
